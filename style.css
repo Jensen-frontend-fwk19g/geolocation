@@ -1,0 +1,38 @@
+:root {
+    --primary-fg: #085C21;
+    --primary-bg: #B9F5CB;
+    --primary-border: #0FA83D;
+}
+
+* {
+    color: var(--primary-fg);
+    background-color: var(--primary-bg);
+    border-color: var(--primary-border);
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    padding: 1em;
+}
+section * {
+    padding: 0.4rem;
+    margin: 0.2rem;
+}
+section button {
+    margin: 1rem;
+    padding: 0.5em 2.2em;
+    border-radius: 0.7em;
+    transition: all 0.5s;
+    background-color: var(--primary-fg);
+    color: var(--primary-bg);
+}
+section button:hover {
+    background-color: var(--primary-bg);
+    color: var(--primary-fg);
+    cursor: pointer;
+}
+section .position {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3em;
+}
